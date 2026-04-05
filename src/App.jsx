@@ -6,6 +6,7 @@ import LessonList from "./pages/LessonList";
 import LessonView from "./pages/LessonView";
 import Quiz from "./pages/Quiz";
 import Roadmap from "./pages/Roadmap";
+import GrammarLesson from "./pages/GrammarLesson";
 import "./App.css";
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/lessons" element={<LessonList />} />
             <Route path="/lesson/:id" element={<LessonView />} />
             <Route path="/quiz/:id" element={<Quiz />} />
+            <Route path="/grammar/:id" element={<GrammarLesson />} />
             <Route path="/roadmap" element={<Roadmap />} />
           </Route>
         </Routes>
