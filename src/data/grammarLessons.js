@@ -80,25 +80,25 @@ export const grammarLessons = [
 
 Let's use the verb **ሰበረ** (säbärä) — "to break" as our model verb.
 
-Notice how the stem vowel changes: 3rd person uses **säbär-** while 1st & 2nd person uses **säbir-** before consonant-initial suffixes.`,
+The stem **sabar-** stays consistent across all persons — just the suffix changes.`,
         conjugationTable: {
           verb: "ሰበረ (break)",
           root: "√s-b-r",
           tense: "Perfect (Past)",
           rows: [
-            { person: "3rd m. sg.", pronoun: "ንሱ (he)", suffix: "-ä", form: "ሰበረ", translit: "säbär-ä", english: "he broke" },
-            { person: "3rd f. sg.", pronoun: "ንሳ (she)", suffix: "-ät", form: "ሰበረት", translit: "säbr-ät", english: "she broke" },
-            { person: "2nd m. sg.", pronoun: "ንስኻ (you m.)", suffix: "-ka", form: "ሰቢርካ", translit: "säbir-ka", english: "you (m.) broke" },
-            { person: "2nd f. sg.", pronoun: "ንስኺ (you f.)", suffix: "-ki", form: "ሰቢርኪ", translit: "säbir-ki", english: "you (f.) broke" },
-            { person: "1st sg.", pronoun: "ኣነ (I)", suffix: "-ku", form: "ሰቢረኩ", translit: "säbir-ku", english: "I broke" },
-            { person: "3rd m. pl.", pronoun: "ንሳቶም (they m.)", suffix: "-u", form: "ሰበሩ", translit: "säbär-u", english: "they (m.) broke" },
-            { person: "3rd f. pl.", pronoun: "ንሳተን (they f.)", suffix: "-a", form: "ሰበራ", translit: "säbär-a", english: "they (f.) broke" },
-            { person: "2nd m. pl.", pronoun: "ንስኻትኩም (you m.pl.)", suffix: "-kum", form: "ሰቢርኩም", translit: "säbir-kum", english: "you (m.pl.) broke" },
-            { person: "2nd f. pl.", pronoun: "ንስኻትክን (you f.pl.)", suffix: "-kən", form: "ሰቢርክን", translit: "säbir-kən", english: "you (f.pl.) broke" },
-            { person: "1st pl.", pronoun: "ንሕና (we)", suffix: "-na", form: "ሰቢርና", translit: "säbir-na", english: "we broke" },
+            { person: "3rd m. sg.", pronoun: "ንሱ (he)", suffix: "-a", form: "ሰበረ", translit: "sabar-a", english: "he broke" },
+            { person: "3rd f. sg.", pronoun: "ንሳ (she)", suffix: "-at", form: "ሰበረት", translit: "sabar-at", english: "she broke" },
+            { person: "2nd m. sg.", pronoun: "ንስኻ (you m.)", suffix: "-ka", form: "ሰበርካ", translit: "sabar-ka", english: "you (m.) broke" },
+            { person: "2nd f. sg.", pronoun: "ንስኺ (you f.)", suffix: "-ki", form: "ሰበርኪ", translit: "sabar-ki", english: "you (f.) broke" },
+            { person: "1st sg.", pronoun: "ኣነ (I)", suffix: "-ku", form: "ሰበርኩ", translit: "sabar-ku", english: "I broke" },
+            { person: "3rd m. pl.", pronoun: "ንሳቶም (they m.)", suffix: "-u", form: "ሰበሩ", translit: "sabar-u", english: "they (m.) broke" },
+            { person: "3rd f. pl.", pronoun: "ንሳተን (they f.)", suffix: "-a", form: "ሰበራ", translit: "sabar-a", english: "they (f.) broke" },
+            { person: "2nd m. pl.", pronoun: "ንስኻትኩም (you m.pl.)", suffix: "-kum", form: "ሰበርኩም", translit: "sabar-kum", english: "you (m.pl.) broke" },
+            { person: "2nd f. pl.", pronoun: "ንስኻትክን (you f.pl.)", suffix: "-kan", form: "ሰበርክን", translit: "sabar-kan", english: "you (f.pl.) broke" },
+            { person: "1st pl.", pronoun: "ንሕና (we)", suffix: "-na", form: "ሰበርና", translit: "sabar-na", english: "we broke" },
           ],
         },
-        keyPoint: `The suffix tells you **who** did the action. Notice the stem vowel alternation: **säbär-** for 3rd person, **säbir-** for 1st & 2nd person (before consonant suffixes). This alternation is typical of Type A verbs.`,
+        keyPoint: `The suffix tells you **who** did the action. The stem **sabar-** stays the same — only the ending changes. Don't confuse with the gerundive, which uses a different vowel pattern (**sabir-**).`,
       },
 
       {
@@ -190,14 +190,14 @@ This goes around the imperfect form of the verb. It's like putting the verb in a
 **1. Ambiguous forms in the imperfect:**
 The prefix ት- (t-) is shared by 2nd m. sg. ("you" male), 3rd f. sg. ("she"), 2nd m. pl., and 2nd f. pl. Context and suffixes disambiguate — but beginners often mix them up.
 
-**2. Stem vowel changes:**
-In the perfect tense, the stem vowels change depending on the suffix. 3rd person forms keep the base pattern (CäCäC-), but 1st/2nd person forms shift to (CäCiC-) before consonant-initial suffixes like -ka, -ki, -ku, -na.
+**2. Perfect vs. Gerundive stems:**
+The Perfect and Gerundive use different vowel patterns from the same root. Perfect uses **sabar-** (CaCaC-), while Gerundive uses **sabir-** (CaCiC-). Don't mix them up — ሰበርካ (sabar-ka, "you broke") vs. ሰቢርካ (sabir-ka, "having broken").
 
 **3. Gemination in the imperfect:**
-The middle consonant **doubles** in the imperfect. This is easy to miss but critical: ሰበረ (säbärä, past) vs. ይሰብብር (yəsäbbər, present). The doubled consonant distinguishes the tenses.
+The middle consonant **doubles** in the imperfect. This is easy to miss but critical: ሰበረ (sabara, past) vs. ይሰብር (yasabbr, present). The doubled consonant distinguishes the tenses.
 
 **4. Gender everywhere:**
-Unlike English, the "you" forms are always gendered. You must know if you're speaking to a male or female. "You (m.) broke" (ሰቢርካ) is different from "you (f.) broke" (ሰቢርኪ).`,
+Unlike English, the "you" forms are always gendered. You must know if you're speaking to a male or female. "You (m.) broke" (ሰበርካ) is different from "you (f.) broke" (ሰበርኪ).`,
         examples: [
           {
             root: "The ambiguous ት- prefix",
@@ -221,12 +221,12 @@ Unlike English, the "you" forms are always gendered. You must know if you're spe
         title: "Identify the Tense",
         instruction: "Look at the verb form and identify whether it's Perfect (past) or Imperfect (present).",
         questions: [
-          { prompt: "ሰበረ", promptTranslit: "säbärä", correctAnswer: "Perfect (Past)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ሰበረ uses a suffix (-ä) with no prefix → Perfect tense. It means 'he broke.'" },
-          { prompt: "ይሰብር", promptTranslit: "yəsäbbər", correctAnswer: "Imperfect (Present)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ይሰብር starts with the prefix ይ- (y-) → Imperfect tense. It means 'he breaks.'" },
-          { prompt: "ሰቢርና", promptTranslit: "säbirna", correctAnswer: "Perfect (Past)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ሰቢርና uses the suffix -na with no prefix → Perfect tense. It means 'we broke.'" },
-          { prompt: "ትሰብሪ", promptTranslit: "təsäbbəri", correctAnswer: "Imperfect (Present)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ትሰብሪ starts with the prefix ት- (t-) → Imperfect tense. It means 'you (f.) break.'" },
-          { prompt: "ሰበረት", promptTranslit: "säbrät", correctAnswer: "Perfect (Past)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ሰበረት uses the suffix -ät with no prefix → Perfect. It means 'she broke.'" },
-          { prompt: "ንሰብር", promptTranslit: "nəsäbbər", correctAnswer: "Imperfect (Present)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ንሰብር starts with the prefix ን- (n-) → Imperfect tense. It means 'we break.'" },
+          { prompt: "ሰበረ", promptTranslit: "sabara", correctAnswer: "Perfect (Past)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ሰበረ uses a suffix (-a) with no prefix → Perfect tense. It means 'he broke.'" },
+          { prompt: "ይሰብር", promptTranslit: "yasabbr", correctAnswer: "Imperfect (Present)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ይሰብር starts with the prefix ይ- (ya-) → Imperfect tense. It means 'he breaks.'" },
+          { prompt: "ሰበርና", promptTranslit: "sabarna", correctAnswer: "Perfect (Past)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ሰበርና uses the suffix -na with no prefix → Perfect tense. It means 'we broke.'" },
+          { prompt: "ትሰብሪ", promptTranslit: "tasabbri", correctAnswer: "Imperfect (Present)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ትሰብሪ starts with the prefix ት- (ta-) → Imperfect tense. It means 'you (f.) break.'" },
+          { prompt: "ሰበረት", promptTranslit: "sabarat", correctAnswer: "Perfect (Past)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ሰበረት uses the suffix -at with no prefix → Perfect. It means 'she broke.'" },
+          { prompt: "ንሰብር", promptTranslit: "nasabbr", correctAnswer: "Imperfect (Present)", options: ["Perfect (Past)", "Imperfect (Present)"], explanation: "ንሰብር starts with the prefix ን- (na-) → Imperfect tense. It means 'we break.'" },
         ],
       },
 
@@ -236,12 +236,12 @@ Unlike English, the "you" forms are always gendered. You must know if you're spe
         title: "Match the Conjugation",
         instruction: "Match each conjugated verb form with the correct pronoun/person.",
         pairs: [
-          { left: "ሰበረ (säbärä)", right: "he (broke)" },
-          { left: "ሰቢርካ (säbirka)", right: "you m. (broke)" },
-          { left: "ሰቢርኪ (säbirki)", right: "you f. (broke)" },
-          { left: "ሰቢረኩ (säbirku)", right: "I (broke)" },
-          { left: "ሰበሩ (säbäru)", right: "they m. (broke)" },
-          { left: "ሰቢርና (säbirna)", right: "we (broke)" },
+          { left: "ሰበረ (sabara)", right: "he (broke)" },
+          { left: "ሰበርካ (sabarka)", right: "you m. (broke)" },
+          { left: "ሰበርኪ (sabarki)", right: "you f. (broke)" },
+          { left: "ሰበርኩ (sabarku)", right: "I (broke)" },
+          { left: "ሰበሩ (sabaru)", right: "they m. (broke)" },
+          { left: "ሰበርና (sabarna)", right: "we (broke)" },
         ],
       },
 
@@ -256,42 +256,42 @@ Unlike English, the "you" forms are always gendered. You must know if you're spe
             blank: "prefix",
             correctAnswer: "እ",
             hint: "The 1st person singular imperfect prefix",
-            explanation: "1st person singular uses the prefix እ- (ə-): እሰብር (əsäbbər) = I break",
+            explanation: "1st person singular uses the prefix እ- ('a-): እሰብር ('asabbr) = I break",
           },
           {
-            sentence: "ሰቢር___ (you m. broke)",
+            sentence: "ሰበር___ (you m. broke)",
             blank: "suffix",
             correctAnswer: "ካ",
             hint: "The 2nd person masculine singular perfect suffix",
-            explanation: "2nd person m. sg. perfect uses suffix -ካ (-ka): ሰቢርካ (säbirka) = you (m.) broke",
+            explanation: "2nd person m. sg. perfect uses suffix -ካ (-ka): ሰበርካ (sabarka) = you (m.) broke",
           },
           {
             sentence: "___ሰብሩ (they m. break)",
             blank: "prefix",
             correctAnswer: "ይ",
             hint: "The 3rd person plural imperfect prefix",
-            explanation: "3rd person uses prefix ይ- (y-): ይሰብሩ (yəsäbbəru) = they (m.) break",
+            explanation: "3rd person uses prefix ይ- (ya-): ይሰብሩ (yasabbru) = they (m.) break",
           },
           {
-            sentence: "ሰቢር___ (we broke)",
+            sentence: "ሰበር___ (we broke)",
             blank: "suffix",
             correctAnswer: "ና",
             hint: "The 1st person plural perfect suffix",
-            explanation: "1st person plural perfect uses suffix -ና (-na): ሰቢርና (säbirna) = we broke",
+            explanation: "1st person plural perfect uses suffix -ና (-na): ሰበርና (sabarna) = we broke",
           },
           {
             sentence: "___ሰብር (we break)",
             blank: "prefix",
             correctAnswer: "ን",
             hint: "The 1st person plural imperfect prefix",
-            explanation: "1st person plural uses prefix ን- (n-): ንሰብር (nəsäbbər) = we break",
+            explanation: "1st person plural uses prefix ን- (na-): ንሰብር (nasabbr) = we break",
           },
           {
-            sentence: "ሰቢር___ (you f. broke)",
+            sentence: "ሰበር___ (you f. broke)",
             blank: "suffix",
             correctAnswer: "ኪ",
             hint: "The 2nd person feminine singular perfect suffix",
-            explanation: "2nd person f. sg. perfect uses suffix -ኪ (-ki): ሰቢርኪ (säbirki) = you (f.) broke",
+            explanation: "2nd person f. sg. perfect uses suffix -ኪ (-ki): ሰበርኪ (sabarki) = you (f.) broke",
           },
         ],
       },
