@@ -1,0 +1,519 @@
+{
+  "language_overview": {
+    "name": "Tigrinya",
+    "native_name": "ትግርኛ",
+    "transliteration": "Tigrinya",
+    "classification": "Afroasiatic > Semitic > South Semitic > Ethiopic > North Ethiopic",
+    "speakers": "Approximately 9-10 million native speakers",
+    "regions": [
+      "Eritrea (official working language, ~2.5 million speakers)",
+      "Ethiopia (Tigray Region, ~4.3 million speakers)",
+      "Diaspora communities worldwide"
+    ],
+    "script": "Ge'ez (ግዕዝ), also called Fidel (ፊደል)",
+    "script_type": "Abugida (alphasyllabary) - each character represents a consonant-vowel combination",
+    "word_order": "SOV (Subject-Object-Verb)",
+    "notable_features": [
+      "Written in the ancient Ge'ez script, shared with Amharic and Tigre",
+      "Gendered language: masculine and feminine nouns, with verb agreement",
+      "Verb-final word order (SOV), unlike most other Semitic languages (which are SVO/VSO)",
+      "Rich verb morphology with consonantal root system (typically 3 consonants)",
+      "First appeared in writing during the 13th century"
+    ]
+  },
+
+  "writing_system": {
+    "name": "Ge'ez / Fidel",
+    "description": "The Ge'ez script (ፊደል, Fidel) is an abugida. Each base character represents a consonant, and vowel sounds are indicated by systematic modifications to the base form. This makes it a syllabary where each symbol represents a consonant+vowel syllable.",
+    "structure": {
+      "total_base_consonants": 32,
+      "vowel_orders": 7,
+      "description": "Each consonant has 7 forms (called 'orders'), one for each vowel. The forms are created by adding small strokes, loops, or modifications to the base consonant character."
+    },
+    "seven_orders": [
+      {
+        "order": 1,
+        "vowel": "e/ä",
+        "ipa": "/ə/ or /æ/",
+        "description": "Base form (default vowel, a central vowel like 'uh')"
+      },
+      {
+        "order": 2,
+        "vowel": "u",
+        "ipa": "/u/",
+        "description": "Usually adds a stroke to the right of the base"
+      },
+      {
+        "order": 3,
+        "vowel": "i",
+        "ipa": "/i/",
+        "description": "Usually adds a stroke below the base"
+      },
+      {
+        "order": 4,
+        "vowel": "a",
+        "ipa": "/a/",
+        "description": "Usually adds a stroke to the right-bottom"
+      },
+      {
+        "order": 5,
+        "vowel": "ie/e",
+        "ipa": "/e/",
+        "description": "Usually modifies the bottom of the character"
+      },
+      {
+        "order": 6,
+        "vowel": "i/ə (reduced)",
+        "ipa": "/ɨ/ or silent",
+        "description": "Represents consonant alone or with minimal vowel; used for consonant clusters"
+      },
+      {
+        "order": 7,
+        "vowel": "o",
+        "ipa": "/o/",
+        "description": "Usually adds a stroke to the upper right"
+      }
+    ],
+    "h_series_example": {
+      "description": "The first row of the Fidel chart demonstrates how the 7 orders work using the consonant 'h' (ሀ series). All forms share the same base U-shape but are modified for each vowel.",
+      "forms": [
+        { "order": 1, "geez": "ሀ", "transliteration": "he/hä", "vowel": "ä" },
+        { "order": 2, "geez": "ሁ", "transliteration": "hu", "vowel": "u" },
+        { "order": 3, "geez": "ሂ", "transliteration": "hi", "vowel": "i" },
+        { "order": 4, "geez": "ሃ", "transliteration": "ha", "vowel": "a" },
+        { "order": 5, "geez": "ሄ", "transliteration": "he", "vowel": "e" },
+        { "order": 6, "geez": "ህ", "transliteration": "h", "vowel": "ə/silent" },
+        { "order": 7, "geez": "ሆ", "transliteration": "ho", "vowel": "o" }
+      ]
+    },
+    "additional_fidel_rows": [
+      {
+        "consonant": "l",
+        "forms": [
+          { "order": 1, "geez": "ለ", "transliteration": "le/lä" },
+          { "order": 2, "geez": "ሉ", "transliteration": "lu" },
+          { "order": 3, "geez": "ሊ", "transliteration": "li" },
+          { "order": 4, "geez": "ላ", "transliteration": "la" },
+          { "order": 5, "geez": "ሌ", "transliteration": "le" },
+          { "order": 6, "geez": "ል", "transliteration": "l" },
+          { "order": 7, "geez": "ሎ", "transliteration": "lo" }
+        ]
+      },
+      {
+        "consonant": "m",
+        "forms": [
+          { "order": 1, "geez": "መ", "transliteration": "me/mä" },
+          { "order": 2, "geez": "ሙ", "transliteration": "mu" },
+          { "order": 3, "geez": "ሚ", "transliteration": "mi" },
+          { "order": 4, "geez": "ማ", "transliteration": "ma" },
+          { "order": 5, "geez": "ሜ", "transliteration": "me" },
+          { "order": 6, "geez": "ም", "transliteration": "m" },
+          { "order": 7, "geez": "ሞ", "transliteration": "mo" }
+        ]
+      },
+      {
+        "consonant": "r",
+        "forms": [
+          { "order": 1, "geez": "ረ", "transliteration": "re/rä" },
+          { "order": 2, "geez": "ሩ", "transliteration": "ru" },
+          { "order": 3, "geez": "ሪ", "transliteration": "ri" },
+          { "order": 4, "geez": "ራ", "transliteration": "ra" },
+          { "order": 5, "geez": "ሬ", "transliteration": "re" },
+          { "order": 6, "geez": "ር", "transliteration": "r" },
+          { "order": 7, "geez": "ሮ", "transliteration": "ro" }
+        ]
+      },
+      {
+        "consonant": "s",
+        "forms": [
+          { "order": 1, "geez": "ሰ", "transliteration": "se/sä" },
+          { "order": 2, "geez": "ሱ", "transliteration": "su" },
+          { "order": 3, "geez": "ሲ", "transliteration": "si" },
+          { "order": 4, "geez": "ሳ", "transliteration": "sa" },
+          { "order": 5, "geez": "ሴ", "transliteration": "se" },
+          { "order": 6, "geez": "ስ", "transliteration": "s" },
+          { "order": 7, "geez": "ሶ", "transliteration": "so" }
+        ]
+      }
+    ]
+  },
+
+  "greetings_and_phrases": [
+    {
+      "geez": "ሰላም",
+      "transliteration": "selam",
+      "english": "Hello / Peace",
+      "notes": "Universal greeting, gender-neutral"
+    },
+    {
+      "geez": "ከመይ ኣለኻ?",
+      "transliteration": "kemey alekha?",
+      "english": "How are you? (to a male)",
+      "notes": "Addressing a male"
+    },
+    {
+      "geez": "ከመይ ኣለኺ?",
+      "transliteration": "kemey alekhi?",
+      "english": "How are you? (to a female)",
+      "notes": "Addressing a female"
+    },
+    {
+      "geez": "ከመይ ኣለኹም?",
+      "transliteration": "kemey alekhum?",
+      "english": "How are you? (plural/formal)",
+      "notes": "Addressing multiple people or formal"
+    },
+    {
+      "geez": "ጽቡቕ ኣለኹ",
+      "transliteration": "ts'buq alekhu",
+      "english": "I am fine (male speaker)",
+      "notes": null
+    },
+    {
+      "geez": "ጽብቕቲ ኣለኹ",
+      "transliteration": "ts'bqti alekhu",
+      "english": "I am fine (female speaker)",
+      "notes": null
+    },
+    {
+      "geez": "ከመይ ሓደርካ?",
+      "transliteration": "kemey haderka?",
+      "english": "Good morning (to a male)",
+      "notes": "Literally: How did you spend the night?"
+    },
+    {
+      "geez": "ከመይ ሓደርኪ?",
+      "transliteration": "kemey haderki?",
+      "english": "Good morning (to a female)",
+      "notes": "Literally: How did you spend the night?"
+    },
+    {
+      "geez": "ደሓን ሓዲረ",
+      "transliteration": "dehaan hadire",
+      "english": "I spent the night well (response to good morning)",
+      "notes": null
+    },
+    {
+      "geez": "ከመይ ኣሚስኻ?",
+      "transliteration": "kemey amisekha?",
+      "english": "Good afternoon (to a male)",
+      "notes": "Literally: How did you spend the day?"
+    },
+    {
+      "geez": "ከመይ ኣሚስኪ?",
+      "transliteration": "kemey amiski?",
+      "english": "Good afternoon (to a female)",
+      "notes": "Literally: How did you spend the day?"
+    },
+    {
+      "geez": "የቐንየለይ",
+      "transliteration": "yeqenyeley",
+      "english": "Thank you",
+      "notes": "Common expression of gratitude"
+    },
+    {
+      "geez": "በጃኻ",
+      "transliteration": "bejakha",
+      "english": "Please (to a male)",
+      "notes": null
+    },
+    {
+      "geez": "በጃኺ",
+      "transliteration": "bejakhi",
+      "english": "Please (to a female)",
+      "notes": null
+    },
+    {
+      "geez": "እወ",
+      "transliteration": "ewe",
+      "english": "Yes",
+      "notes": null
+    },
+    {
+      "geez": "ኣይፋልን",
+      "transliteration": "ayfaalin",
+      "english": "No",
+      "notes": null
+    },
+    {
+      "geez": "ይቕረታ",
+      "transliteration": "yiqreta",
+      "english": "Excuse me / Sorry",
+      "notes": null
+    },
+    {
+      "geez": "ደሓን ኩን",
+      "transliteration": "dehaan kun",
+      "english": "Goodbye (to a male)",
+      "notes": "Literally: Be well"
+    },
+    {
+      "geez": "ደሓን ኩኒ",
+      "transliteration": "dehaan kuni",
+      "english": "Goodbye (to a female)",
+      "notes": "Literally: Be well"
+    },
+    {
+      "geez": "ደሓን ኩኑ",
+      "transliteration": "dehaan kunu",
+      "english": "Goodbye (to plural)",
+      "notes": "Literally: Be well (plural)"
+    },
+    {
+      "geez": "ሽመይ ... እዩ",
+      "transliteration": "shmey ... eyu",
+      "english": "My name is ...",
+      "notes": "Used for self-introduction"
+    },
+    {
+      "geez": "ሽምካ መን እዩ?",
+      "transliteration": "shmka men eyu?",
+      "english": "What is your name? (to a male)",
+      "notes": null
+    },
+    {
+      "geez": "ሽምኪ መን እዩ?",
+      "transliteration": "shmki men eyu?",
+      "english": "What is your name? (to a female)",
+      "notes": null
+    },
+    {
+      "geez": "ጽቡቕ ምዓልቲ",
+      "transliteration": "ts'buq mi'alti",
+      "english": "Good day / Have a nice day",
+      "notes": null
+    },
+    {
+      "geez": "እንቋዕ ብድሓን መጻእኻ",
+      "transliteration": "enqwa'e bdehaan mets'akha",
+      "english": "Welcome (to a male)",
+      "notes": null
+    },
+    {
+      "geez": "እንቋዕ ብድሓን መጻእኪ",
+      "transliteration": "enqwa'e bdehaan mets'akhi",
+      "english": "Welcome (to a female)",
+      "notes": null
+    }
+  ],
+
+  "vocabulary": {
+    "numbers": [
+      { "number": 1, "geez": "ሓደ", "transliteration": "hade", "english": "one" },
+      { "number": 2, "geez": "ክልተ", "transliteration": "kilte", "english": "two" },
+      { "number": 3, "geez": "ሰለስተ", "transliteration": "seleste", "english": "three" },
+      { "number": 4, "geez": "ኣርባዕተ", "transliteration": "arba'ete", "english": "four" },
+      { "number": 5, "geez": "ሓሙሽተ", "transliteration": "hamushte", "english": "five" },
+      { "number": 6, "geez": "ሽድሽተ", "transliteration": "shidishte", "english": "six" },
+      { "number": 7, "geez": "ሸውዓተ", "transliteration": "shew'ate", "english": "seven" },
+      { "number": 8, "geez": "ሸሞንተ", "transliteration": "shemonte", "english": "eight" },
+      { "number": 9, "geez": "ትሽዓተ", "transliteration": "tish'ate", "english": "nine" },
+      { "number": 10, "geez": "ዓሰርተ", "transliteration": "'aserte", "english": "ten" }
+    ],
+
+    "family_members": [
+      { "geez": "ኣቦ", "transliteration": "abo", "english": "father" },
+      { "geez": "ኣደ", "transliteration": "ade", "english": "mother" },
+      { "geez": "ሓው", "transliteration": "haw", "english": "brother" },
+      { "geez": "ሓፍቲ", "transliteration": "hafti", "english": "sister" },
+      { "geez": "ወዲ", "transliteration": "wedi", "english": "son / boy" },
+      { "geez": "ጓል", "transliteration": "gwal", "english": "daughter / girl" },
+      { "geez": "ኣቦ ሓጎ", "transliteration": "abo hago", "english": "grandfather" },
+      { "geez": "እማ ሓጎ", "transliteration": "ema hago", "english": "grandmother" },
+      { "geez": "ሰብኣይ", "transliteration": "seb'ay", "english": "husband / man" },
+      { "geez": "ሰበይቲ", "transliteration": "sebeyti", "english": "wife / woman" },
+      { "geez": "ስድራ", "transliteration": "sidra", "english": "family" },
+      { "geez": "ህጻን", "transliteration": "hits'an", "english": "baby / child" },
+      { "geez": "ኣሞ", "transliteration": "amo", "english": "aunt (paternal)" },
+      { "geez": "ሓትኖ", "transliteration": "hatno", "english": "aunt (maternal)" },
+      { "geez": "ሓወቦ", "transliteration": "hawebo", "english": "uncle (paternal)" },
+      { "geez": "ኣኮ", "transliteration": "ako", "english": "uncle (maternal)" }
+    ],
+
+    "colors": [
+      { "geez": "ቀይሕ", "transliteration": "qeyih", "english": "red" },
+      { "geez": "ጻዕዳ", "transliteration": "ts'a'eda", "english": "white" },
+      { "geez": "ጸሊም", "transliteration": "ts'elim", "english": "black" },
+      { "geez": "ሰማያዊ", "transliteration": "semayawi", "english": "blue" },
+      { "geez": "ቀጠልያ", "transliteration": "qetelya", "english": "green" },
+      { "geez": "ብጫ", "transliteration": "bicha", "english": "yellow" },
+      { "geez": "ኣራንቾኒ", "transliteration": "aranchoni", "english": "orange" },
+      { "geez": "ሓምላይ", "transliteration": "hamlay", "english": "green (alternative)" }
+    ],
+
+    "days_of_the_week": [
+      {
+        "geez": "ሰንበት",
+        "transliteration": "senbet",
+        "english": "Sunday",
+        "notes": "From Ge'ez, meaning 'Sabbath'; first day of the week in Ethiopian/Eritrean tradition"
+      },
+      {
+        "geez": "ሰኑይ",
+        "transliteration": "senuy",
+        "english": "Monday",
+        "notes": "From Ge'ez ሰነየ (seneye), meaning 'the second'"
+      },
+      {
+        "geez": "ሰሉስ",
+        "transliteration": "selus",
+        "english": "Tuesday",
+        "notes": "From Ge'ez ሠለሰ (selese), meaning 'the third'"
+      },
+      {
+        "geez": "ረቡዕ",
+        "transliteration": "rebu'e",
+        "english": "Wednesday",
+        "notes": "From Ge'ez ረብዐ (reb'e), meaning 'the fourth'"
+      },
+      {
+        "geez": "ሓሙስ",
+        "transliteration": "hamus",
+        "english": "Thursday",
+        "notes": "From Ge'ez ኃመሰ (hamase), meaning 'the fifth'"
+      },
+      {
+        "geez": "ዓርቢ",
+        "transliteration": "'arbi",
+        "english": "Friday",
+        "notes": "From the word meaning 'eve' (of the Sabbath)"
+      },
+      {
+        "geez": "ቀዳም",
+        "transliteration": "qedam",
+        "english": "Saturday",
+        "notes": "Related to the concept of 'preceding' (the Sunday Sabbath)"
+      }
+    ],
+
+    "common_foods": [
+      { "geez": "እንጀራ", "transliteration": "enjera", "english": "injera (sourdough flatbread, staple food)" },
+      { "geez": "ጸብሒ", "transliteration": "ts'ebhi", "english": "stew (general term for cooked dishes)" },
+      { "geez": "ሽሮ", "transliteration": "shiro", "english": "chickpea/lentil stew" },
+      { "geez": "ስጋ", "transliteration": "siga", "english": "meat" },
+      { "geez": "ዓሳ", "transliteration": "'asa", "english": "fish" },
+      { "geez": "ማይ", "transliteration": "may", "english": "water" },
+      { "geez": "ጸባ", "transliteration": "ts'eba", "english": "milk" },
+      { "geez": "እኽሊ", "transliteration": "ekhli", "english": "grain / cereal" },
+      { "geez": "ብርበረ", "transliteration": "berbere", "english": "spice blend (chili pepper mix)" },
+      { "geez": "ጠስሚ", "transliteration": "t'esmi", "english": "clarified butter (ghee)" },
+      { "geez": "ዝብዒ", "transliteration": "zib'i", "english": "honey" },
+      { "geez": "ባኒ", "transliteration": "bani", "english": "bread" },
+      { "geez": "ቡን", "transliteration": "bun", "english": "coffee" },
+      { "geez": "ሻሂ", "transliteration": "shahi", "english": "tea" },
+      { "geez": "ምግቢ", "transliteration": "migbi", "english": "food (general)" }
+    ]
+  },
+
+  "grammar_basics": {
+    "word_order": {
+      "pattern": "SOV (Subject-Object-Verb)",
+      "description": "Tigrinya follows Subject-Object-Verb word order, unlike many Semitic languages. The verb comes at the end of the sentence.",
+      "examples": [
+        {
+          "geez": "ኣነ ማይ ሰቲየ",
+          "transliteration": "ane may setiye",
+          "literal": "I water drank",
+          "english": "I drank water"
+        },
+        {
+          "geez": "ንሱ መጽሓፍ ኣንቢቡ",
+          "transliteration": "nsu mets'haf anbibu",
+          "literal": "He book read",
+          "english": "He read a book"
+        }
+      ]
+    },
+
+    "noun_gender": {
+      "description": "Tigrinya has two grammatical genders: masculine and feminine. The gender of animate nouns generally follows natural gender. For inanimate nouns, gender is often not predictable from form or meaning and must be learned.",
+      "rules": [
+        "Most nouns ending in a consonant tend to be masculine",
+        "Some nouns ending in '-ti' or '-t' tend to be feminine",
+        "Adjectives agree with the noun in gender and number (masculine, feminine, plural forms)",
+        "The gender of inanimate nouns is largely arbitrary and must be memorized"
+      ],
+      "examples": [
+        { "geez": "ዓቢ ሰብ", "transliteration": "'abi seb", "english": "big person (masc.)" },
+        { "geez": "ዓባይ ሰበይቲ", "transliteration": "'abay sebeyti", "english": "big woman (fem.)" }
+      ]
+    },
+
+    "personal_pronouns": [
+      { "person": "1st singular", "geez": "ኣነ", "transliteration": "ane", "english": "I" },
+      { "person": "2nd singular (m)", "geez": "ንስኻ", "transliteration": "niskha", "english": "you (male)" },
+      { "person": "2nd singular (f)", "geez": "ንስኺ", "transliteration": "niskhi", "english": "you (female)" },
+      { "person": "3rd singular (m)", "geez": "ንሱ", "transliteration": "nisu", "english": "he" },
+      { "person": "3rd singular (f)", "geez": "ንሳ", "transliteration": "nisa", "english": "she" },
+      { "person": "1st plural", "geez": "ንሕና", "transliteration": "nihna", "english": "we" },
+      { "person": "2nd plural (m)", "geez": "ንስኻትኩም", "transliteration": "niskhatkum", "english": "you (pl. male)" },
+      { "person": "2nd plural (f)", "geez": "ንስኻትክን", "transliteration": "niskhatkin", "english": "you (pl. female)" },
+      { "person": "3rd plural (m)", "geez": "ንሳቶም", "transliteration": "nisatom", "english": "they (male)" },
+      { "person": "3rd plural (f)", "geez": "ንሳተን", "transliteration": "nisaten", "english": "they (female)" }
+    ],
+
+    "verb_conjugation": {
+      "description": "Tigrinya verbs are built from consonantal roots (usually 3 consonants). Verb forms are created by adding vowel patterns, prefixes, and suffixes to these roots. Verbs agree with their subject in person, number, and gender.",
+      "root_system": {
+        "description": "Most verb roots consist of 3 consonants. Example: the root {s-b-r} means 'break'. The citation form (perfect 3rd masc. sg.) is ሰበረ (säbärä).",
+        "example_root": "s-b-r (break)"
+      },
+      "tense_system": {
+        "perfect": {
+          "description": "Used for past/completed actions. Formed by adding SUFFIXES to the verb stem.",
+          "example_verb": "ሰበረ (säbärä) - 'he broke' (citation form)",
+          "suffix_pattern": [
+            { "person": "I", "suffix": "-ku", "example": "ሰቢረ-ኩ (sebire-ku)", "english": "I broke" },
+            { "person": "you (m.sg)", "suffix": "-ka", "example_note": "suffix -ka" },
+            { "person": "you (f.sg)", "suffix": "-ki", "example_note": "suffix -ki" },
+            { "person": "he", "suffix": "-e (base form)", "example_note": "no suffix (base form)" },
+            { "person": "she", "suffix": "-a", "example_note": "suffix -a" },
+            { "person": "we", "suffix": "-na", "example_note": "suffix -na" },
+            { "person": "you (m.pl)", "suffix": "-kum", "example_note": "suffix -kum" },
+            { "person": "you (f.pl)", "suffix": "-kan", "example_note": "suffix -kan" },
+            { "person": "they (m)", "suffix": "-om", "example_note": "suffix -om" },
+            { "person": "they (f)", "suffix": "-an", "example_note": "suffix -an" }
+          ]
+        },
+        "imperfect": {
+          "description": "Used for present/future/habitual actions. Formed by adding PREFIXES (and sometimes suffixes) to the verb stem.",
+          "prefix_pattern": [
+            { "person": "I", "prefix": "e-", "example_note": "prefix e-" },
+            { "person": "you (m.sg)", "prefix": "te-", "example_note": "prefix te-" },
+            { "person": "you (f.sg)", "prefix": "te-...-i", "example_note": "prefix te- + suffix -i" },
+            { "person": "he", "prefix": "ye-", "example_note": "prefix ye-" },
+            { "person": "she", "prefix": "te-", "example_note": "prefix te-" },
+            { "person": "we", "prefix": "ne-", "example_note": "prefix ne-" },
+            { "person": "you (m.pl)", "prefix": "te-...-u", "example_note": "prefix te- + suffix -u" },
+            { "person": "they (m)", "prefix": "ye-...-u", "example_note": "prefix ye- + suffix -u" }
+          ]
+        }
+      },
+      "common_verbs": [
+        { "geez": "በልዐ", "transliteration": "bel'e", "english": "ate" },
+        { "geez": "ሰተየ", "transliteration": "seteye", "english": "drank" },
+        { "geez": "ከደ", "transliteration": "kede", "english": "went" },
+        { "geez": "መጸ", "transliteration": "mets'e", "english": "came" },
+        { "geez": "ተዛረበ", "transliteration": "tezarebe", "english": "spoke" },
+        { "geez": "ሰርሐ", "transliteration": "serhe", "english": "worked" },
+        { "geez": "ፈለጠ", "transliteration": "felet'e", "english": "knew" },
+        { "geez": "ደቀሰ", "transliteration": "deqese", "english": "slept" },
+        { "geez": "ጸሓፈ", "transliteration": "ts'ehafe", "english": "wrote" },
+        { "geez": "ኣንበበ", "transliteration": "anbebe", "english": "read" }
+      ]
+    }
+  },
+
+  "sources": [
+    "https://en.wikipedia.org/wiki/Tigrinya_language",
+    "https://en.wikipedia.org/wiki/Ge%CA%BDez_script",
+    "https://en.wikipedia.org/wiki/Tigrinya_grammar",
+    "https://en.wikipedia.org/wiki/Tigrinya_verbs",
+    "https://www.britannica.com/topic/Tigrinya-language",
+    "https://www.ling.upenn.edu/courses/ling202/WritingSystem.html",
+    "https://eriyopia.com/names-of-days-of-the-week-in-tigrinya-and-their-meaning/",
+    "https://polyglotclub.com/wiki/Language/Tigrinya/Vocabulary/",
+    "https://www.worlddata.info/languages/tigrinya.php",
+    "https://scriptsource.org/entry/cldtirethi"
+  ]
+}
